@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Snowman Flexbox Puzzle</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Ezra Taylor">
+	<meta name="keywords" content="Snowman, Puzzle">
+	<meta name="description" content="Snowman flexbox puzzle.">
+    <style>
+        body {
+            background-color: #222222;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .title {
+            display: flex;
+            justify-content: center;
+            color: #ffffff;
+        }
+        .title-content {
+            padding: 0 10px;
+        }
+        .puzzle-flexbox {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            margin: auto;
+            background-color: aqua;
+        }
+        .grid-puzzle {
+            width: fit-content;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            column-gap: 4px;
+            row-gap: 4px;
+            padding: 4px;
+            background-color: #494949;
+        }
+        .grid-item {
+            width: 150px;
+            height: 133px;
+            background-color: #00aeff;
+        }
+        .faulty-piece {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <p class="title-content">Ezra Taylor</p>
+        <p class="title-content">Snowman Flexbox Puzzle</p>
+        <p class="title-content">7/2/24</p>
+    </div>
+    <section class="puzzle-flexbox">
+        <div class="grid-puzzle">
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_K.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_M.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_E.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_G.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_A.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_D.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_L.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_B.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_F.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_J.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_H.jpg" alt="puzzle2_A"></div>
+            <div class="grid-item"><img src="Images/Puzzle/puzzle2_I.jpg" alt="puzzle2_A"></div>
+        </div>
+    </section>
+</section>
+    <img class="faulty-piece" src="Images/Puzzle/puzzle2_C.jpg" alt="faulty puzzle piece">
+</body>
+</html>
