@@ -1,0 +1,31 @@
+.tinybox-container {
+    display: flex;
+    justify-content: right;
+    align-items:start;
+    height: 40px;
+    width: 40px;
+}
+
+.tinybox {
+    width: 8px;
+    height: 8px;
+    font-size: 6px;
+}
+
+.playernumber {
+    width: 20px;
+}
+
+.playernames {
+    padding-left: 5px;
+    width: 150px;
+}
+
+.scoring {
+    width: 43px;
+}
+
+.scorebox {
+    width: 40px;
+    font-size: 15px;
+}

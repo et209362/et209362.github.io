@@ -1,0 +1,22 @@
+.totalscore {
+    padding-left: 5px;
+    width: 150px;
+}
+
+.playernumber {
+    width: 20px;
+}
+
+.playernames {
+    padding-left: 5px;
+    width: 150px;
+}
+
+.scoring {
+    width: 43px;
+}
+
+.scorebox {
+    width: 40px;
+    font-size: 15px;
+}

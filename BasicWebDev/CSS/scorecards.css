@@ -1,0 +1,46 @@
+html {
+    font-family: Arial, sans-serif;
+  }
+
+body {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.links {
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
+    padding-top: 10vh;
+}
+
+a {
+    color: #0095ff;
+    padding: 0 10px;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.scorecard {
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    border: solid 2px #ff0000;
+    padding: 0 10px;
+}
+
+td {
+    border: solid 1px #ffffff;
+    background-color: #3e3e3e;
+    text-align: center;
+    height: 40px;
+}
+
+td:hover {
+    border: #0095ff 1px solid;
+    color: #0095ff;
+}
