@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video Embedding Tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ezra Taylor">
+	<meta name="keywords" content="Video, Embedding">
+	<meta name="description" content="Video embedding tutorial.">
+    <link rel="stylesheet" href="CSS/video-embedding.css">
+</head>
+<body>
+    <section class="main-page">
+        <div class="title">
+            <h1>How to embed a YouTube video into your website</h1>
+        </div>
+        <div class="article-body">
+            <h2>How to find the embed option on YouTube</h2>
+            <ol>
+                <li>
+                    <p>Go to YouTube and search for the video you need in the search bar. Once you've found the video open it and click the <b>"share"</b> button.</p>
+                
+                    <img src="IMAGES/embed-tutorial/youtube-video-share-highlighted.jpg" alt="YouTube video with share button highlighted." width="50%">
+                </li>
+                <li>
+                    <p>Within the share button there is an option titled <b>"embed"</b>. Click on it.</p>
+
+                    <img src="IMAGES/embed-tutorial/youtube-video-share-embed.jpg" alt="Youtube share pannel with embed button highlighted." width="40%">
+                </li>
+                <li>
+                    <p>Click the <b>"copy"</b> button in the bottom right of the window.</p>
+
+                    <img src="IMAGES/embed-tutorial/youtube-video-embed-copy.jpg" alt="Youtube embed pannel with copy button." width="40%">
+                </li>
+                <li>
+                    <p>Once you've copied the code from YouTube paste it into your text editor.</p>
+
+                    <img src="IMAGES/embed-tutorial/youtube-video-embed-pasted.jpg" alt="Youtube embed iframe pasted into a text editor." width="40%">
+                </li>
+                <li>
+                    <p>You now have a YouTube embed &lt;iframe&gt; within your website.</p>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/6yrdS4tIP9U?si=s7ViHgwljp1Wl2aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+            </ol>
+            <hr>
+            <h2>How to edit the &lt;iframe&gt; HTML tag</h2>
+            <ol>
+                <li>
+                    <p>The <b>&lt;iframe&gt;</b> tag is what allows you to embed a video from an external source into your website.</p>
+
+                    <img src="IMAGES/embed-tutorial/iframe.png" alt="screenshot of the iframe html tag.">
+                </li>
+                <li>
+                    <p>Within the &lt;iframe&gt; tag you will see the attributes <b>src=""</b>, <b>height=""</b>, <b>width=""</b> and <b>title=""</b>. The <b>src=""</b> attribute is the link that will be used to add the YouTube embed. <b>height=""</b> and <b>width=""</b> will allow you to change the dimensions of the embed. Lastly, the <b>title=""</b> will be the title of the video.</p>
+
+                    <img src="IMAGES/embed-tutorial/iframe-attributes.png" alt="The iframe html tag with attributes added.">
+                </li>
+                <li>
+                    <p>With some of the values of the attributes editied your &lt;iframe&gt; could look something like this:</p>
+
+                    <iframe width="20%" height="250" src="https://www.youtube.com/embed/6yrdS4tIP9U?si=s7ViHgwljp1Wl2aw" title="Vine Boom sound effect YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </li>
+            </ol>
+            <p></p>
+        </div>
+    </section>
+</body>
+</html>
