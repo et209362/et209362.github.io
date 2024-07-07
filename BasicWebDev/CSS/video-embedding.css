@@ -1,0 +1,32 @@
+html {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+  }
+
+body {
+    background-color: #222222;
+}
+
+.main-page {
+    padding: 15px;
+    background-color: #3c3c3c;
+    margin: 40px 20px 40px 20px;
+    border: solid 2px #ffffff;
+    border-radius: 20px;
+}
+
+.title {
+    background-color: #ff0000;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: solid 2px #ffffff;
+}
+
+.article-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 2px #cdcdcd;
+    margin-top: 10px;
+    color: #000000;
+}
